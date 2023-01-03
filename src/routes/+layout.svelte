@@ -27,11 +27,16 @@
             <li class="nav-item">
                 <a class:is-active={$page.url.pathname === "/courses"} class="nav-link" href="/courses">Courses</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class:is-active={$page.url.pathname === "/news"} href="/news" class="nav-link">News</a>
-            </li>
-            <li class="nav-item">
-                <a class:is-active={$page.url.pathname === "/activities"} class="nav-link" href="/activities">Activities</a>
+            </li> -->
+            <li class="nav-item dropdown">
+                <a class:is-active={$page.url.pathname === "/activities"} class="nav-link dropdown-toggle" href="/activities" role="button" data-bs-toggle="dropdown" aria-expanded="false">Activities</a>
+                <div class="dropdown-menu">
+                    <div><a class="dropdown-item" href="/activities#programs">Programs</a></div>
+                    <li><hr class="dropdown-divider"></li>
+                    <div><a class="dropdown-item" href="/activities#community">Community Service</a></div>
+                </div>
             </li>
             <li class="nav-item">
                 <a class:is-active={$page.url.pathname === "/about"} href="/about" class="nav-link">About</a>
@@ -66,9 +71,7 @@
         clear: both;
         z-index: 9999;/* set this to something high*/
     }
-    /* .container-fluid{
-        background: rgba(51, 170, 51, .1);
-    } */
+ 
 </style>
 
 <div class='content'>
