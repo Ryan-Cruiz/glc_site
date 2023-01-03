@@ -6,7 +6,7 @@
     <title>Golden Link College</title>
 </svelte:head>
 <main>
-    <div class='container school-name full-bleed row mx-auto '>
+    <div class='container school-name row mx-auto '>
         <div class='col-md-5 d-flex align-self-center justify-content-center'>
             <div class='school-name-container'>
                 <h1 class="ps-3 mx-auto">Golden Link College</h1>
@@ -60,10 +60,6 @@
         height: 60ch;
         margin-bottom: 5rem;
     }
-    /* .full-bleed{
-        box-shadow: 0 0 0 100vmax #40739e;
-        clip-path: inset(0 -100vmax);
-    } */
     .school-name-container h1{
         font-size: 50px;
     }
