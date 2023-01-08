@@ -1,5 +1,5 @@
 <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 bg bg-transparent">
         <slot name='img'>
             <img src="https://user-images.githubusercontent.com/43302778/106805462-7a908400-6645-11eb-958f-cd72b74a17b3.jpg" class="card-img-top" alt=''>
         </slot>

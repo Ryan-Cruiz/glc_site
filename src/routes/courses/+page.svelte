@@ -8,10 +8,10 @@
 <main class="pb-4">
     <div class="container row mx-auto ">
        <!-- pre -->
-       <div class="col-md-5 mx-auto">
-           <div class="mt-4 ms-4 card h-100 p-3 pt-0 ">
-               <h4 class="card-title"><strong>Preschool</strong></h4>
-               <div class="flex">
+       <div class="col-md-6 mx-auto">
+           <div class=" card h-100  ">
+               <h4 class="card-title  p-3 pb-0"><strong>Preschool</strong></h4>
+             <div class="flex p-3 pt-0">
                    <span class="badge rounded-pill text-bg-none text-black">Main Campus</span>
                    <span class="badge rounded-pill text-bg-none text-black">Bohol Campus</span>
                    <span class="badge rounded-pill text-bg-none text-black">Quezon Campus</span>
@@ -27,10 +27,10 @@
        </div>
         <!-- pre end -->
         <!-- elem -->
-        <div class="col-md-5 mx-auto">
-            <div id='elem' class="mt-4 ms-4 card h-100 p-3 pt-0 ">
-                <h4 class="card-title"><strong>Elementary</strong></h4>
-                <div class="flex">
+        <div class="col-md-6 mx-auto">
+            <div id='elem' class=" card h-100  ">
+                <h4 class="card-title  p-3 pb-0"><strong>Elementary</strong></h4>
+              <div class="flex p-3 pt-0">
                     <span class="badge rounded-pill text-bg-none text-black">Main Campus</span>
                     <span class="badge rounded-pill text-bg-none text-black">Bohol Campus (up to Grade 5)</span>
                 </div>
@@ -48,10 +48,10 @@
         </div>
         <!-- elem end -->
         <!-- jhs -->
-        <div class="col-md-5 mx-auto">
-            <div id="jhs" class="mt-4 card ms-4 p-3 pt-0 h-100 ">
-                <h4 class="card-title"><strong>Junior High School</strong></h4>
-                <div class="flex">
+        <div class="col-md-6 mx-auto">
+            <div id="jhs" class="card h-100 ">
+                <h4 class="card-title  p-3 pb-0"><strong>Junior High School</strong></h4>
+              <div class="flex p-3 pt-0">
                     <span class="badge rounded-pill text-bg-none text-black">Main Campus</span>
                 </div>
                 <div class="card-body">
@@ -67,11 +67,11 @@
         <!-- jsh end -->
 
         <!-- shs -->
-        <div class="col-md-5 mx-auto">
+        <div class="col-md-6 mx-auto">
 
-            <div id="shs" class="mt-4 ms-4 card p-3 pt-0 h-100 ">
-                <h4 class="card-title"><strong>Senior High School</strong></h4>
-                <div class="flex">
+            <div id="shs" class=" card  h-100 ">
+                <h4 class="card-title  p-3 pb-0"><strong>Senior High School</strong></h4>
+              <div class="flex p-3 pt-0">
                     <span class="badge rounded-pill text-bg-none text-black">Main Campus</span>
                 </div>
                 <div class="card-body">
@@ -124,9 +124,9 @@
         <!-- college -->
         <div id='college' class="col-12 mx-auto">
 
-            <div class="card list-item-college mt-4 ms-4 p-3 pt-0 ">
-                <h4 class="card-title"><strong>College</strong></h4>
-                <div class="flex">
+            <div class="card list-item-college   ">
+                <h4 class="card-title  p-3 pb-0"><strong>College</strong></h4>
+              <div class="flex p-3 pt-0">
                     <span class="badge rounded-pill text-bg-none text-black">Main Campus</span>
                 </div>
                 <!-- <h5 class='ms-3'>Courses Offered</h5> -->
@@ -136,7 +136,7 @@
                             <h2 class="accordion-header" id="flush-head-bsse">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-bsse" aria-expanded="false" aria-controls="flush-bsse">
-                                    Bachelor of info Education
+                                    Bachelor of Secondary Education
                                 </button>
                             </h2>
                             <div id="flush-bsse" class="accordion-collapse collapse" aria-labelledby="flush-head-bsse"
@@ -167,7 +167,7 @@
                             <h2 class="accordion-header" id="flush-head-bsba">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-bsba" aria-expanded="false" aria-controls="flush-bsba">
-                                    Bachelor of Science in business Administration
+                                    Bachelor of Science in Business Administration
                                 </button>
                             </h2>
                             <div id="flush-bsba" class="accordion-collapse collapse" aria-labelledby="flush-head-bsba"
@@ -178,15 +178,15 @@
                             </div>
                         </div>
                         <ul class="list-group college-list">
-                            <li class="list-group-item">BACHELOR OF SCIENCE IN PSYCHOLOGY</li>
+                            <li class="list-group-item">Bachelor of Science in Psychology</li>
                             <li class="list-group-item">
-                                BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY
+                                Bachelor of Science in Information Technology
                             </li>
                             <li class="list-group-item">
-                                BACHELOR OF SCIENCE IN ACCOUNTING INFORMATION SYSTEM
+                                Bachelor of Science in Accounting Information System
                             </li>
                             <li class="list-group-item">
-                                TEACHER CERTIFICATE PROGRAM (For college graduates who would like to
+                                Teacher Certificate Program (For college graduates who would like to
                                 take Licensure Examination for Teachers)
                             </li>
                         </ul>
@@ -197,9 +197,9 @@
         <!-- college end -->
         <!-- how to enroll -->
         <div class="col-12">
-            <div class="card list-item-college mt-4 ms-4 p-3 pt-0 ">
-                <h4 class='card-title'><strong>How to Enroll</strong></h4>
-                <div class="flex">
+            <div class="card list-item-college   ">
+                <h4 class='card-title  p-3 pb-0'><strong>How to Enroll</strong></h4>
+              <div class="flex p-3 pt-0">
                     <span class="badge rounded-pill text-bg-none text-black">Updated December 31, 2022</span>
                 </div>
                 <div class="card-body">
@@ -258,9 +258,14 @@
 </main>
 <Footer/>
 <style>
+    .badge{
+        font-size:14px;
+    }
+    li{
+        font-size:17px;
+    }
     .card{
         background: none;
-        /* border:none; */
     }
     .accordion-item{
         background:none;
@@ -269,6 +274,7 @@
         border-radius: 5px;
     }
     .accordion-button{
+        font-size:17px;
         background: none;
     }
     .college-list li{
@@ -280,7 +286,7 @@
     .card-title{
         padding-top:10px;
     }
-    .col-md-5,#college{
+    .col-md-6,#college{
         margin:5px;
     }
     .enrollment-list > li {
