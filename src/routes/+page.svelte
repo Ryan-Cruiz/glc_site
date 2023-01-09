@@ -1,12 +1,13 @@
 <script>
     import CardTemplate from "./activities/card-template.svelte";
     import Footer from "./footer.svelte";
-    let images = ['comlab_2.jpg','family_day.jpg','psych_pinning.jpg','caroling.jpg','community_service.jpg'];
-    let courses = ['Information Technology','Business Administration','Psychology','Accounting Information System','Primary and Secondary Education'];
+    let img_desc = ['comlab 2','BSBA and BSAIS taking exam','Psych Pinning 2022','Education Major On Laugh Out Loud']
+    let images = ['comlab_2.jpg','bsba.jpeg','psych_pinning.jpg','educ.jpeg'];
+    let courses = ['Information Technology','Business Administration and Accounting Information System','Psychology','Primary and Secondary Education'];
     let ms = 3000
     let counter = 0
     const incr = () => (counter += 1)
-    $: if(counter == 5){
+    $: if(counter == courses.length){
         counter = 0;
     }
     let clear
@@ -20,7 +21,7 @@
 </svelte:head>
 <main>
     <div class='school-name mx-auto'>
-        <div class='school-name-container m-4'>
+        <div class='school-name-container m-4 mx-auto '>
             <h1 class="ps-3 mx-auto fw-bold">Golden Link College</h1>
             <h5 class='fs-4 mt-2'>A vision of transformative education</h5>
         </div>
@@ -28,7 +29,7 @@
     <div class="bg-img container-fluid">
         <img src="/glc_orientation.jpg" alt="glc orientation 2022" class='w-100'>
     </div>
-    <div class="container-md mx-auto mission-vision m-3">
+    <div class="container-md mx-auto mission-vision m-5">
         <h2 class=' fw-bold text-center my-3'>Mission and Vision</h2>
         <ul class='ps-3'>
             <li>To educate and bring up children and young adults to become competent, well balanced, emotionally mature, socially responsible, morally upright and spiritually sensitive individuals.</li>
@@ -74,14 +75,14 @@
         <h2 class=" fw-bold my-3 text-center">Courses Offered</h2>
         <div class='row row-cols-1 row-cols-md-2 g-4 justify-content-center'>
             <CardTemplate>
-                <img slot='img' src="/{images[counter]}" alt="Computer Laboratory 2">
-                <h3 slot='title' class='text-center'>
-                {#if courses[counter] == courses[4]}
+                <img slot='img' src="/{images[counter]}" alt="{img_desc[counter]}">
+                <h4 slot='title' class='text-center'>
+                {#if courses[counter] == 'Primary and Secondary Education'}
                     Bachelor of {courses[counter]}
                 {:else}
                    Bachelor of Science in {courses[counter]}
                 {/if}
-                </h3>
+                </h4>
                 <p slot='text'></p>
             </CardTemplate>
         </div>
