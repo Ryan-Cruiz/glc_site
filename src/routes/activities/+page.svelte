@@ -53,7 +53,7 @@
             <div class="row row-cols-1 row-cols-2 g-4">
                 <div id="carouselExampleInterval" class="carousel slide col-12 mx-auto p-3" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="5000">
+                      <div class="carousel-item active" data-bs-interval="2000">
                         <img src="/community_service.jpg" class="d-block w-100 rounded" alt="Gift Giving Nov 8,2022">
                       </div>
                       <div class="carousel-item" data-bs-interval="2000">
@@ -76,8 +76,8 @@
                     <p>The School does not limit itself to serving its student population. It undertakes regular activities that seeks to help the community, such as:</p>
                     <p><span class='fw-bold'>Annual medical mission </span>for the community, including x-rays, dental services (including dentures), opthalmological services (with free reading glasses), immunization, deworming, and free medicine.</p>
                     <p><span class='fw-bold'>Assisting nearby public high schools</span>  in conducting teacher's training, donation of library books, holding youth camps, and conducting sessions for students.</p>
-                    <p><span class='fw-bold'>Caroling to extremely poor families</span> and donating food and fund for December. Below, Teacher Alma Besonia distributes toys and educational materials to children, and at the bottom photo, Rekha Nahar, Golden Link Administrator, gives groceries to a mother.</p>
-                    <h4>Free Summer Classes & Youth Camp</h4>
+                    <p><span class='fw-bold'>Caroling to extremely poor families</span> and donating food and fund for December.</p>
+                    <h4 class='mt-4'>Free Summer Classes & Youth Camp</h4>
                     <p>Every year, the College gives a one-month Summer Class for students from preschool to high school. It is completely free. Many parents send their children to these classes even though they live very far away. Some would even rent rooms nearby just to enable their children to attend these summer classes.</p>
                     <p>The focus of these classes is on language skills and personality development. It culminates in a two-day program where all the students deliver their speeches in front of the their parents, family members and guests.</p>
                     <p>The Golden Link College also conducts a 4-day youth camp to its students as well as to other interested young people.They are taught self-awareness, effective relationships and other life skills that they have invariably found to be very valuable in their lives.</p>

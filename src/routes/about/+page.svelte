@@ -17,25 +17,25 @@ import Profile from "./profile.svelte";
             </div>
             <div class="card mt-5 bg bg-transparent">
                 <h3 class="card-title p-3">2002-2003</h3>
-                <div class="card-body ps-5">
+                <div class="card-body">
                     <p>June 2002 Golden Link College open their first school at Waling-waling St., Barangay 177 with pre-school classes (nursery, kindergarten, and preparatory levels). The following year, it accepted elementary school pupils. </p>
                 </div>
             </div>
             <div class="card mt-5 bg bg-transparent">
                 <h3 class="card-title p-3">2005-2006</h3>
-                <div class="card-body ps-5">
+                <div class="card-body">
                     <p>In 2005, it opened its secondary school department. Following year, its started its Golden Link Institute for Teacher Training as a program for training its own teachers and college students who are taking up education courses.</p>
                 </div>
             </div>
             <div class="card mt-5 bg bg-transparent">
                 <h3 class="card-title p-3">2009</h3>
-                <div class="card-body ps-5">
+                <div class="card-body">
                     <p>In 2009, it was given approval by the Commission on Higher Education (CHED) to open two collegiate courses: Bachelor of Secondary Education (major in English, Mathematics or Physical Sciences) and Bachelor of Elementary Education (major in General Education or Preschool Education). It added three additional courses: Bachelor of Science in Information Technology, Bachelor of Science in Business Administration (major in Marketing Management), and Bachelor of Science in Psychology.</p>
                 </div>
             </div>
             <div class="card mt-5 bg bg-transparent">
                 <h3 class="card-title p-3">2013-2015</h3>
-                <div class="card-body ps-5">
+                <div class="card-body">
                     <ul>
                         <li>In 2013, it was given approval by CHED to offer Teacher Certificate Program (TCP) for college graduates of non-education courses so that they can take the government Licensure Examination for Teachers. Golden Link College frequently has visiting teachers or professors from other countries (e.g., Australia, France, Switzerland) who teach short-term courses in various fields, such as leadership, literature, leadership, art, etc. It has also received grants and support from individuals and organizations for scholarships to poor students and for campus development.</li>
                         <li>In 2013, Golden Link College opened its first branch in Cortes, Bohol Province, for preschool levels: Nursery, Kindergarten 1 and Kindergarten 2. Like its mother campus, it also offered free summer classes to the community for the development of language proficiency and personality. In 2015, it opened its elementary department.</li>
@@ -113,7 +113,9 @@ import Profile from "./profile.svelte";
 </main>
 <Footer/>
 <style>
-
+p,li{
+    font-size: 19px;
+}
 .card-body ul li {
     margin-bottom: 10px;
 }
